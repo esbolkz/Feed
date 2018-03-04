@@ -13,9 +13,18 @@
 		4439EFD8204A9C0600FCF9FA /* RSSFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4439EFD6204A9C0600FCF9FA /* RSSFeed.xcdatamodeld */; };
 		4439EFDA204A9C0600FCF9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4439EFD9204A9C0600FCF9FA /* Assets.xcassets */; };
 		4439EFDD204A9C0600FCF9FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4439EFDB204A9C0600FCF9FA /* LaunchScreen.storyboard */; };
+		4493F964204AA47D00B14639 /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F963204AA47D00B14639 /* ServerError.swift */; };
+		4493F967204AA8A900B14639 /* TitleSubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F966204AA8A900B14639 /* TitleSubtitleTableViewCell.swift */; };
+		4493F96A204AABB800B14639 /* MoyaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F969204AABB800B14639 /* MoyaService.swift */; };
+		44AB6977204C55F70009092A /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB6976204C55F60009092A /* FeedParser.swift */; };
+		44AB697A204C63950009092A /* FeedPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB6979204C63950009092A /* FeedPostsTableViewController.swift */; };
+		44AB697D204C77530009092A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB697C204C77530009092A /* DetailViewController.swift */; };
+		894F242E010E70B02FE4B730 /* Pods_RSSFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AD74A793116868EBF49AB2 /* Pods_RSSFeed.framework */; };
+		B89F2AB42468D59D3DEF60C4 /* SubscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09C687FCAB27D556FD0FDD /* SubscriptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06D886C1941E5C00CDEF58D8 /* Pods-RSSFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSFeed/Pods-RSSFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		4439EFCC204A9C0600FCF9FA /* RSSFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4439EFCF204A9C0600FCF9FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4439EFD1204A9C0600FCF9FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		4439EFD9204A9C0600FCF9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4439EFDC204A9C0600FCF9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4439EFDE204A9C0600FCF9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4493F963204AA47D00B14639 /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		4493F966204AA8A900B14639 /* TitleSubtitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleTableViewCell.swift; sourceTree = "<group>"; };
+		4493F969204AABB800B14639 /* MoyaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaService.swift; sourceTree = "<group>"; };
+		44AB6976204C55F60009092A /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		44AB6979204C63950009092A /* FeedPostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableViewController.swift; sourceTree = "<group>"; };
+		44AB697C204C77530009092A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		59AD74A793116868EBF49AB2 /* Pods_RSSFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSSFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0C9CF5D00E78DAD66F91F4 /* Pods-RSSFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSFeed/Pods-RSSFeed.release.xcconfig"; sourceTree = "<group>"; };
+		7D09C687FCAB27D556FD0FDD /* SubscriptionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894F242E010E70B02FE4B730 /* Pods_RSSFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28110F2DBE11EA909B2E585A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59AD74A793116868EBF49AB2 /* Pods_RSSFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33F194D08792EEED185AF4B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06D886C1941E5C00CDEF58D8 /* Pods-RSSFeed.debug.xcconfig */,
+				7A0C9CF5D00E78DAD66F91F4 /* Pods-RSSFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C914433ED57DFCD2FDA5588 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				7D09C687FCAB27D556FD0FDD /* SubscriptionsViewController.swift */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
 		4439EFC3204A9C0600FCF9FA = {
 			isa = PBXGroup;
 			children = (
 				4439EFCE204A9C0600FCF9FA /* RSSFeed */,
 				4439EFCD204A9C0600FCF9FA /* Products */,
+				33F194D08792EEED185AF4B9 /* Pods */,
+				28110F2DBE11EA909B2E585A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,86 @@
 		4439EFCE204A9C0600FCF9FA /* RSSFeed */ = {
 			isa = PBXGroup;
 			children = (
+				4439EFD6204A9C0600FCF9FA /* RSSFeed.xcdatamodeld */,
+				4439EFE5204A9D3700FCF9FA /* Classes */,
+				4439EFE4204A9C2600FCF9FA /* Start */,
+			);
+			path = RSSFeed;
+			sourceTree = "<group>";
+		};
+		4439EFE4204A9C2600FCF9FA /* Start */ = {
+			isa = PBXGroup;
+			children = (
 				4439EFCF204A9C0600FCF9FA /* AppDelegate.swift */,
 				4439EFD1204A9C0600FCF9FA /* ViewController.swift */,
 				4439EFD3204A9C0600FCF9FA /* Main.storyboard */,
 				4439EFD9204A9C0600FCF9FA /* Assets.xcassets */,
 				4439EFDB204A9C0600FCF9FA /* LaunchScreen.storyboard */,
 				4439EFDE204A9C0600FCF9FA /* Info.plist */,
-				4439EFD6204A9C0600FCF9FA /* RSSFeed.xcdatamodeld */,
 			);
-			path = RSSFeed;
+			path = Start;
+			sourceTree = "<group>";
+		};
+		4439EFE5204A9D3700FCF9FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4493F968204AAB6F00B14639 /* Services */,
+				4493F965204AA7A700B14639 /* CustomViews */,
+				4493F93B204AA19800B14639 /* Models */,
+				4439EFE6204A9D4500FCF9FA /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4439EFE6204A9D4500FCF9FA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				44AB697B204C77260009092A /* DetailView */,
+				44AB6978204C63690009092A /* FeedPosts */,
+				3C914433ED57DFCD2FDA5588 /* Subscriptions */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4493F93B204AA19800B14639 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4493F963204AA47D00B14639 /* ServerError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4493F965204AA7A700B14639 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				4493F966204AA8A900B14639 /* TitleSubtitleTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		4493F968204AAB6F00B14639 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4493F969204AABB800B14639 /* MoyaService.swift */,
+				44AB6976204C55F60009092A /* FeedParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44AB6978204C63690009092A /* FeedPosts */ = {
+			isa = PBXGroup;
+			children = (
+				44AB6979204C63950009092A /* FeedPostsTableViewController.swift */,
+			);
+			path = FeedPosts;
+			sourceTree = "<group>";
+		};
+		44AB697B204C77260009092A /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				44AB697C204C77530009092A /* DetailViewController.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4439EFE1204A9C0600FCF9FA /* Build configuration list for PBXNativeTarget "RSSFeed" */;
 			buildPhases = (
+				FCA658C23F33960EEB3D4191 /* [CP] Check Pods Manifest.lock */,
 				4439EFC8204A9C0600FCF9FA /* Sources */,
 				4439EFC9204A9C0600FCF9FA /* Frameworks */,
 				4439EFCA204A9C0600FCF9FA /* Resources */,
+				DF8A6232F93730E184060FD4 /* [CP] Embed Pods Frameworks */,
+				5E5520EF7A8F8FB9CD18DFA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +254,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E5520EF7A8F8FB9CD18DFA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSFeed/Pods-RSSFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8A6232F93730E184060FD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RSSFeed/Pods-RSSFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSFeed/Pods-RSSFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA658C23F33960EEB3D4191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSSFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4439EFC8204A9C0600FCF9FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AB697A204C63950009092A /* FeedPostsTableViewController.swift in Sources */,
+				4493F967204AA8A900B14639 /* TitleSubtitleTableViewCell.swift in Sources */,
 				4439EFD2204A9C0600FCF9FA /* ViewController.swift in Sources */,
+				4493F96A204AABB800B14639 /* MoyaService.swift in Sources */,
 				4439EFD8204A9C0600FCF9FA /* RSSFeed.xcdatamodeld in Sources */,
 				4439EFD0204A9C0600FCF9FA /* AppDelegate.swift in Sources */,
+				44AB6977204C55F70009092A /* FeedParser.swift in Sources */,
+				44AB697D204C77530009092A /* DetailViewController.swift in Sources */,
+				4493F964204AA47D00B14639 /* ServerError.swift in Sources */,
+				B89F2AB42468D59D3DEF60C4 /* SubscriptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +469,12 @@
 		};
 		4439EFE2204A9C0600FCF9FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D886C1941E5C00CDEF58D8 /* Pods-RSSFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RSSFeed/Info.plist;
+				DEVELOPMENT_TEAM = DWLNFPCE6H;
+				INFOPLIST_FILE = "$(SRCROOT)/RSSFeed/Start/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lobster.RSSFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,10 +485,12 @@
 		};
 		4439EFE3204A9C0600FCF9FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0C9CF5D00E78DAD66F91F4 /* Pods-RSSFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RSSFeed/Info.plist;
+				DEVELOPMENT_TEAM = DWLNFPCE6H;
+				INFOPLIST_FILE = "$(SRCROOT)/RSSFeed/Start/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lobster.RSSFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";

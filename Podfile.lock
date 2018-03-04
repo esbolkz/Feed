@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - FeedKit (6.2.0)
+  - Moya (11.0.1):
+    - Moya/Core (= 11.0.1)
+  - Moya/Core (11.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - ObjectMapper (3.1.0)
+  - Result (3.2.4)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.0)
+  - FeedKit (~> 6.0)
+  - Moya (~> 11.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  FeedKit: 48e371d0884b3bc7d87253f5ae3313c91d2a7e72
+  Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: cc6fdd692b96b5d3cbbdb1814fcbaaa7930dbccd
+
+COCOAPODS: 1.3.1
